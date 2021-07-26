@@ -1,0 +1,29 @@
+.sub-hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    padding: 30px;
+    background-color: #F063B826;
+    margin: 100px auto;
+    height: 400px;
+    border-radius: 25px;
+}
+
+.sub-hero h1 {
+    font-size: 32px;
+    color: #212353;
+}
+
+.sub-hero p {
+    font-size: 18px;
+    color: #4B5D68;
+}
+
+.sub-hero img {
+    width: 40%;
+}
+
+.sub-hero div {
+    padding: 30px;
+}

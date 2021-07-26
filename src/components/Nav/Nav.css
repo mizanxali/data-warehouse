@@ -1,0 +1,39 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 30px;
+    height: 60px;
+}
+
+.links {
+    margin-left: 100px;
+}
+
+.links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #4B5D68;
+    font-size: 18px;
+}
+
+.active {
+    color: #212353 !important;
+}
+
+.nav button {
+    color: #212353;
+    background-color: white;
+    border-radius: 25px;
+    padding: 15px;
+    outline: none;
+    border: none;
+    width: 160px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.arrow {
+    color: #9C69E2;
+    margin-left: 12px;
+}

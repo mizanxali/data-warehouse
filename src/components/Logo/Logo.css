@@ -1,0 +1,19 @@
+.logo {
+    display: inline-block;
+}
+
+.logo-circle {
+    border-radius: 50%;
+    background-color: #9C69E2;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+.logo-oval {
+    border-radius: 40%;
+    background-color: #F063B8;
+    width: 20px;
+    height: 40px;
+    display: inline-block;
+}

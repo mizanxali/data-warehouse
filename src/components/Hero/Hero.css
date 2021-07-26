@@ -1,0 +1,46 @@
+.hero {
+    position: relative;
+    width: 70%;
+    margin: auto;
+    height: 400px;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 55%;
+    font-size: 70px;
+    color: #212353;
+    line-height: 80px;
+}
+
+.hero p {
+    position: absolute;
+    top: 55%;
+    left: 5%;
+    width: 30%;
+    font-size: 18px;
+    color: #4B5D68;
+    line-height: 30px;
+}
+
+.hero img {
+    position: absolute;
+    top: 30%;
+    right: 0;
+    width: 60%;
+}
+
+.hero button {
+    position: absolute;
+    top: 96%;
+    left: 5%;
+    color: white;
+    background-color: #9C69E2;
+    border-radius: 25px;
+    padding: 15px;
+    outline: none;
+    border: none;
+    width: 150px;
+}

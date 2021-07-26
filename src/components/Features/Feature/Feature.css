@@ -1,0 +1,27 @@
+.feature {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background-color: #F063B826;
+    /* margin: 100px auto; */
+    border-radius: 25px;
+}
+
+.feature h1 {
+    font-size: 18px;
+    color: #212353;
+}
+
+.feature p {
+    font-size: 12px;
+    color: #4B5D68;
+}
+
+.feature img {
+    width: 40%;
+}
+
+.feature div {
+    padding: 30px;
+}

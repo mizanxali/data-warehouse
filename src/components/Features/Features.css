@@ -1,0 +1,25 @@
+.features {
+    width: 70%;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.features>h1 {
+    color: #212353;
+    font-size: 32px;
+}
+
+.features>p {
+    font-size: 18px;
+    color: #4B5D68;
+    width: 60%;
+    margin: auto;
+}
+
+.features-grid {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-row: auto auto;
+    grid-gap: 20px;
+}
