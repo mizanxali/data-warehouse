@@ -1,13 +1,40 @@
+@font-face {
+  font-family: Avenir-Dark;
+  src: url(assets/fonts/avenir_ff/AvenirLTStd-Black.otf);
+}
+
+@font-face {
+  font-family: Avenir-Light;
+  src: url(assets/fonts/avenir_ff/AvenirLTStd-Roman.otf);
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: Avenir-Light;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.request-demo-button {
+  color: #212353;
+  background-color: white;
+  border-radius: 25px;
+  padding: 15px;
+  outline: none;
+  border: none;
+  width: 160px;
+  font-weight: bold;
+  box-shadow: 0 4px 5px 0 rgb(0 0 0 / 10%), 0 6px 7px 0 rgb(0 0 0 / 9%);
+  cursor: pointer;
+}
+
+.arrow {
+  color: #9C69E2;
+  margin-left: 12px;
 }

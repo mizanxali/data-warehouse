@@ -11,7 +11,8 @@
 }
 
 .logo-oval {
-    border-radius: 40%;
+    margin: 0 10px;
+    border-radius: 30px;
     background-color: #F063B8;
     width: 20px;
     height: 40px;

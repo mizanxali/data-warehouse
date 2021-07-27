@@ -1,0 +1,36 @@
+.testimonial {
+    width: 500px;
+    height: 200px;
+    border-radius: 25px;
+    margin: 0 10px;
+    background-color: white;
+    border: 1px solid #9C69E2;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 35px;
+}
+
+.testimonial h1 {
+    color: #212353;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.testimonial h4 {
+    color: #9C69E2;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.testimonial p {
+    color: #4B5D68;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.testimonial .content {
+    padding: 0 30px;
+}

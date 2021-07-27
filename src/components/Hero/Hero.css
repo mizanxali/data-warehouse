@@ -13,6 +13,8 @@
     font-size: 70px;
     color: #212353;
     line-height: 80px;
+    font-weight: 700;
+    font-family: Helvetica;
 }
 
 .hero p {
@@ -23,6 +25,7 @@
     font-size: 18px;
     color: #4B5D68;
     line-height: 30px;
+    font-weight: 500;
 }
 
 .hero img {
@@ -43,4 +46,6 @@
     outline: none;
     border: none;
     width: 150px;
+    font-weight: 500;
+    cursor: pointer;
 }

@@ -6,7 +6,7 @@ import './SubHero.css'
 const SubHero = () => {
     return (
         <div className='sub-hero'>
-            <img src={image} />
+            <img alt="" src={image} />
             <div>
                 <h1>We are a high-level data storage bank</h1>
                 <p>

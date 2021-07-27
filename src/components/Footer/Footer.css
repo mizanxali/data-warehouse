@@ -1,0 +1,55 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+    margin: 50px auto;
+}
+
+.footer-col1, .footer-col2, .footer-col3, .footer-col4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer h4 {
+    font-weight: 700;
+    font-size: 16px;
+    color: #212353;
+}
+
+.footer h5 {
+    font-weight: 500;
+    font-size: 16px;
+    color: #212353;
+}
+
+.footer p {
+    font-size: 16px;
+    margin: 10px 0;
+    font-weight: 500;
+    color: #4B5D68;
+}
+
+.footer-icons {
+    color: rgba(33, 35, 83, 0.3);
+    font-size: 34px;
+}
+
+.post-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+    margin: 50px auto;
+}
+
+.post-footer p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #212353;
+}
+
+.chat-icon {
+    color: #9C69E2;
+    font-size: 34px;
+}

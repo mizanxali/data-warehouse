@@ -10,7 +10,7 @@ const Hero = () => {
             <p>Data Warehouse is a data storage area that has been
                 tested for security, so you can store your data here
                 safely but not be afraid of being stolen by others.</p>
-            <img src={image} />
+            <img alt="" src={image} />
             <button>Learn more</button>
         </div>
     )

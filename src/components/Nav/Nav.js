@@ -10,14 +10,14 @@ const Nav = () => {
             <div>
                 <Logo />
                 <span className='links'>
-                    <a className='active' href='#'>About</a>
-                    <a href='#'>Help</a>
-                    <a href='#'>Features</a>
-                    <a href='#'>Signup</a>
+                    <a className='active' href='/'>About</a>
+                    <a href='/'>Help</a>
+                    <a href='/'>Features</a>
+                    <a href='/'>Signup</a>
                 </span>
             </div>
             <div>
-                <button><span>Request Demo</span><span><BsArrowRight className='arrow' /></span></button>
+                <button className='request-demo-button'><span>Request Demo</span><span><BsArrowRight className='arrow' /></span></button>
             </div>
         </div>
     )

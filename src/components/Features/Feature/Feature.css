@@ -2,20 +2,21 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px;
-    background-color: #F063B826;
-    /* margin: 100px auto; */
+    padding: 22px;
     border-radius: 25px;
 }
 
 .feature h1 {
-    font-size: 18px;
+    font-size: 20px;
     color: #212353;
+    font-weight: 500;
+    font-family: Helvetica;
 }
 
 .feature p {
-    font-size: 12px;
+    font-size: 16px;
     color: #4B5D68;
+    font-weight: 500;
 }
 
 .feature img {
@@ -24,4 +25,11 @@
 
 .feature div {
     padding: 30px;
+}
+
+.feature a {
+    text-decoration: none;
+    color: #212353;
+    font-size: 18px;
+    font-weight: 500;
 }
