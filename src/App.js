@@ -11,13 +11,17 @@ import Testimonials from './components/Testimonials/Testimonials'
 const App = () => {
   return (
     <>
-      <Nav />
-      <Hero />
-      <SubHero />
-      <Features />
-      <Testimonials />
-      <Banner />
-      <Footer />
+      <div className='main-nav'>
+        <Nav />
+      </div>
+      <div className='main-content'>
+        <Hero />
+        <SubHero />
+        <Features />
+        <Testimonials />
+        <Banner />
+        <Footer />
+      </div>
     </>
   )
 }
